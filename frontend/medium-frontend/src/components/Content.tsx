@@ -7,7 +7,7 @@ interface ContentType {
     content: string;
     publishedDate: string;
 }
-export const Content = ({ id, author, title, content, publishedDate }: ContentType) => {
+export const Content = ({author, title, content, publishedDate }: ContentType) => {
     return <div className="flex justify-center mx-8 my-4 ">
         <div className="flex  flex-col w-1/2 items-left p-4 ">
             <div className="font-sans text-2xl font-black mt-2 m-2 px-2 py-1">

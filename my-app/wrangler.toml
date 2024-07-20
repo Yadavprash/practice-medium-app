@@ -2,8 +2,8 @@ name = "my-app"
 compatibility_date = "2024-07-15"
 
 [vars]
-DATABASE_URL=""
-JWT_SECRET=""
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiYTYzMjQ3ZDQtMmEwMC00MjMxLTgzYmQtMWRmZDE4ZjBmNzIzIiwidGVuYW50X2lkIjoiYTFkYWZkODE2M2E3N2ZhNGYyZTM4M2I5ZDgxMjFlY2JiYzI5Y2Q3YjI0NjFjZTQ0MjI1NTUxZmM2NWM1MGQwNSIsImludGVybmFsX3NlY3JldCI6ImZlNTFkZmU1LTFiOTktNDZkZC1iZGYwLTI1NGZkYTE2Mzc2OSJ9.YnLbuyRFBnU2xOA_yyDwHVWEWfLdHHJgXE3yxZ9aWv8"
+JWT_SECRET="GameDesignerAreAwesome"
 
 # [[kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
